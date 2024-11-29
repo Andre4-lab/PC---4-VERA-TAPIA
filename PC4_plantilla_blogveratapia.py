@@ -60,7 +60,7 @@ col1, col2 = st.columns(2)
 # Las columnas creadas se asignan a las variables col1 y col2.
 
 # En la primera columna colocamos la imagen
-col1.image("imagen1.jpeg", caption='Página interactiva del semestre 2024-2', width=300)
+col1.image("LOGO DE LA PAGINA.jpeg", caption='Página interactiva del semestre 2024-2', width=300)
 
 # col1.image("ellie.png", caption='Ellie', width=300): Esta línea está colocando una imagen en la primera columna (col1). 
 # La función image toma como primer argumento la ruta de la imagen que se va a mostrar. 
@@ -174,15 +174,15 @@ grafico_seleccionado = sidebar.selectbox('Selecciona un gráfico', graficos)
 # Mostramos el gráfico seleccionado
 if grafico_seleccionado == 'Cursos':
     sidebar.markdown("<div style='text-align: justify; font-size: 20px;'>Gráfico realizado en la PC2 con listas de palabras</div>", unsafe_allow_html=True)
-    sidebar.image("graficonaranja.jpeg", caption='Cursos', width=500)
+    sidebar.image("Gráfico 1.jpeg", caption='Cursos', width=500)
     pass
 elif grafico_seleccionado == 'Asignaturas':
     sidebar.markdown("<div style='text-align: justify'>Gráfico de diccionarios con claves de palabras y los valores son los números de veces que aparece</div>", unsafe_allow_html=True)
-    sidebar.image("graficoverde.jpeg", caption='asginaturas', width=500)
+    sidebar.image("Gráfico 2.jpeg", caption='asginaturas', width=500)
     pass
 elif grafico_seleccionado == 'Mapa de frecuencia de palabras':
     sidebar.markdown("<div style='text-align: justify'>Frecuencia de palabras utilizando Worldcloud en la PC2</div>", unsafe_allow_html=True)
-    sidebar.image("frecuencias.jpeg", caption='Frecuencia de palabras', width=500)
+    sidebar.image("Gráfico 3.jpeg", caption='Frecuencia de palabras', width=500)
     pass
 
 # if grafico_seleccionado == 'Gráfico de Macroareas': Esta línea verifica si la opción seleccionada es 'Gráfico de Macroareas'.
