@@ -42,7 +42,7 @@ sidebar = st.sidebar
 # La función st.markdown permite centrar y agrandar la letra del título de la web en Streamlit.
 st.markdown("<h1 style='text-align: center;'>Aquí escribe un nombre creativo para tu blog</h1>", unsafe_allow_html=True)
 
-# <h1 style='text-align: center;'>Nombre de tu blog</h1>: Esto es una cadena de código HTML. 
+# <h1 style='text-align: center;'>My idol Nara</h1>: Esto es una cadena de código HTML. 
 # La etiqueta <h1> se utiliza para el encabezado principal de una página web, y 
 # el atributo style se utiliza para agregar estilos CSS. 
 # En este caso, el texto está alineado al centro (text-align: center;). 
@@ -64,8 +64,8 @@ col1.image("ellie.png", caption='Aquí puedes escribir una tiqueta debajo de la 
 
 # col1.image("ellie.png", caption='Ellie', width=300): Esta línea está colocando una imagen en la primera columna (col1). 
 # La función image toma como primer argumento la ruta de la imagen que se va a mostrar. 
-# En este caso, la imagen es "ellie.png". 
-# El argumento caption se utiliza para proporcionar un pie de foto a la imagen, en este caso 'Ellie'. 
+# En este caso, la imagen es "Logo1". 
+# El argumento caption se utiliza para proporcionar un pie de foto a la imagen, en este caso 'Logo'. 
 # El argumento width se utiliza para especificar el ancho de la imagen, en este caso 300 píxeles.
 
 # En la segunda columna colocamos el texto: Debe contener una presentación de ustedes
@@ -73,7 +73,7 @@ col1.image("ellie.png", caption='Aquí puedes escribir una tiqueta debajo de la 
 # ¿Qué te gustaría hacer en el futuro?, ¿Qué te gusta hacer en tu tiempo libre?
 
 texto = """
-Aquí escribe una presentación creativa sobre ti.
+Bienvenido a tu blog interactivo favorito! Donde encontrarás todo lo relacionado a tus idolos de Kpop favorito. Desde idolos de primera generación hasta la cuarta generación! No dejamos pasar ningun dato para que puedas estar más cerca de tu ídolo.
 """
 
 # Las comillas triples (""") en Python se utilizan para definir cadenas multilínea.
